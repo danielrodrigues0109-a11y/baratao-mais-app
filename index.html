@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baratao.mais - Postos de Gasolina</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-content">
+      <img src="assets/logo-brand.jpg" alt="baratao.mais" class="logo">
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#postos">Postos</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#conveniencia">Conveniência</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text reveal">
+            <label>BEM-VINDO</label>
+            <h1>Combustível de qualidade.<br><strong>Economia de verdade.</strong></h1>
+            <p>Encontre os melhores preços nos postos Baratao.mais mais próximos de você.</p>
+            <a class="primary-btn" href="#postos">ENCONTRAR POSTO</a>
+          </div>
+          <div class="hero-prices reveal">
+            <div class="fuel">
+              <span class="fuel-symbol g">G</span>
+              <div>
+                <small>Gasolina comum</small>
+                <strong>R$ 5,89<span>/L</span></strong>
+              </div>
+            </div>
+            <div class="fuel">
+              <span class="fuel-symbol e">E</span>
+              <div>
+                <small>Etanol</small>
+                <strong>R$ 4,89<span>/L</span></strong>
+              </div>
+            </div>
+            <div class="fuel">
+              <span class="fuel-symbol d">D</span>
+              <div>
+                <small>Diesel S10</small>
+                <strong>R$ 5,69<span>/L</span></strong>
+              </div>
+            </div>
+            <a href="#ofertas">Confira as ofertas →</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bottom">
+        <div class="container badges">
+          <span>✓ Combustível de qualidade</span>
+          <span>✓ Preços competitivos</span>
+          <span>✓ Atendimento de verdade</span>
+          <span>✓ Conveniência completa</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section find" id="postos">
+      <div class="container">
+        <div class="heading reveal">
+          <div>
+            <label>ENCONTRE UM POSTO</label>
+            <h2>Seu próximo abastecimento<br><strong>começa aqui.</strong></h2>
+          </div>
+          <a href="#">Ver todos os postos →</a>
+        </div>
+
+        <div class="finder reveal">
+          <span>⌖</span>
+          <input id="search" placeholder="Digite sua cidade, bairro ou CEP">
+          <button id="find">BUSCAR POSTO</button>
+        </div>
+        <p class="message" id="message"></p>
+
+        <div class="station-grid">
+          <article class="station reveal">
+            <img src="assets/facade.jpg" alt="Posto Baratao.mais">
+            <div>
+              <div class="station-head">
+                <h3>Baratao.mais Centro</h3>
+                <b class="status open">ABERTO</b>
+              </div>
+              <p>Av. Principal, 1000 • Centro</p>
+              <small>◷ 24 horas &nbsp; • &nbsp; ⌖ 1,2 km</small>
+              <a href="#">Traçar rota ↗</a>
+            </div>
+          </article>
+
+          <article class="station reveal delay">
+            <img src="assets/outdoor.jpg" alt="Unidade Baratao.mais">
+            <div>
+              <div class="station-head">
+                <h3>Baratao.mais Norte</h3>
+                <b class="status open">ABERTO</b>
+              </div>
+              <p>Av. das Nações, 450 • Zona Norte</p>
+              <small>◷ 24 horas &nbsp; • &nbsp; ⌖ 3,8 km</small>
+              <a href="#">Traçar rota ↗</a>
+            </div>
+          </article>
+
+          <article class="station reveal delay2">
+            <img src="assets/facade.jpg" alt="Unidade Baratao.mais">
+            <div>
+              <div class="station-head">
+                <h3>Baratao.mais Sul</h3>
+                <b class="status open">ABERTO</b>
+              </div>
+              <p>Rod. Estadual, km 12 • Zona Sul</p>
+              <small>◷ 24 horas &nbsp; • &nbsp; ⌖ 6,4 km</small>
+              <a href="#">Traçar rota ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="offers" id="ofertas">
+      <div class="container">
+        <div class="heading light reveal">
+          <div>
+            <label>OFERTAS BARATAO.MAIS</label>
+            <h2>Mais economia<br><strong>em cada abastecida.</strong></h2>
+          </div>
+          <a href="#">Todas as ofertas →</a>
+        </div>
+
+        <div class="offer-grid">
+          <article class="offer-big reveal">
+            <span class="tag">OFERTA ESPECIAL</span>
+            <p>GASOLINA COMUM</p>
+            <h3>R$ 5,89<small>/L</small></h3>
+            <span>Consulte disponibilidade no posto participante.</span>
+            <a class="yellow-btn" href="#postos">APROVEITAR OFERTA</a>
+          </article>
+
+          <article class="mini-offer reveal delay">
+            <div class="mini-icon">E</div>
+            <p>ETANOL</p>
+            <h3>R$ 4,89<small>/L</small></h3>
+            <span>Preço especial em postos participantes.</span>
+            <a href="#postos">ENCONTRAR POSTO →</a>
+          </article>
+
+          <article class="mini-offer reveal delay2">
+            <div class="mini-icon">D</div>
+            <p>DIESEL S10</p>
+            <h3>R$ 5,69<small>/L</small></h3>
+            <span>Mais economia para quem roda mais.</span>
+            <a href="#postos">ENCONTRAR POSTO →</a>
+          </article>
+        </div>
+
+        <small class="note">* Valores demonstrativos desta versão. Preços reais variam por posto e região.</small>
+      </div>
+    </section>
+
+    <section class="brand-section" id="marca">
+      <div class="container brand-layout">
+        <div class="brand-text reveal">
+          <label>A NOSSA MARCA</label>
+          <h2>Uma força forte.<br><strong>Moderna e próxima.</strong></h2>
+          <p>O Baratao.mais foi pensado para estar presente no caminho de quem trabalha, viaja e vive em movimento. Qualidade, economia e confiança em cada parada.</p>
+          <a class="dark-btn" href="#contato">Conheça a Baratao.mais ↗</a>
+        </div>
+        <div class="visual-board reveal">
+          <img src="assets/instagram.jpg" alt="Identidade Baratao.mais">
+          <div class="brand-stamp">
+            <strong>MAIS KM</strong>
+            <span>•</span>
+            <strong>MAIS ECONOMIA</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="convenience" id="conveniencia">
+      <div class="container conv-layout">
+        <div class="conv-copy reveal">
+          <label>CONVENIÊNCIA</label>
+          <h2>Uma parada completa<br><strong>para o seu caminho.</strong></h2>
+          <p>Abasteça, faça uma pausa e siga viagem. Tudo para tornar sua parada mais prática.</p>
+          <a class="dark-btn" href="#">Conhecer a conveniência ↗</a>
+        </div>
+        <div class="conv-grid">
+          <div class="conv-card reveal">
+            <span>01</span>
+            <b>Qualidade</b>
+            <small>Produtos e serviços de confiança.</small>
+          </div>
+          <div class="conv-card reveal delay">
+            <span>02</span>
+            <b>Economia</b>
+            <small>Ofertas para seu dinheiro render.</small>
+          </div>
+          <div class="conv-card reveal delay2">
+            <span>03</span>
+            <b>Agilidade</b>
+            <small>Atendimento rápido e eficiente.</small>
+          </div>
+          <div class="conv-card reveal delay3">
+            <span>04</span>
+            <b>Conveniência</b>
+            <small>Mais facilidade em uma só parada.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="container contact-card reveal">
+        <div>
+          <label>FALE COM A GENTE</label>
+          <h2>Estamos sempre<br><strong>com você.</strong></h2>
+          <p>Ofertas, postos, dúvidas ou parcerias. Fale com a equipe Baratao.mais.</p>
+        </div>
+        <div class="contact-buttons">
+          <a href="https://wa.me/5585999999999">WHATSAPP ↗</a>
+          <a href="#">INSTAGRAM ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-top">
+      <img src="assets/logo-brand.jpg" alt="baratao.mais" class="footer-logo">
+      <div class="footer-nav">
+        <a href="#inicio">Início</a>
+        <a href="#postos">Postos</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#conveniencia">Conveniência</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 baratao.mais</span>
+      <strong>Combustível de qualidade. Economia de verdade.</strong>
+      <span>Mais KM • Mais Economia</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
