@@ -1,0 +1,29 @@
+{
+  "name": "baratao-mais",
+  "version": "1.0.0",
+  "description": "Aplicativo Baratao.mais - Postos de Gasolina",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Build process'",
+    "android:build": "cordova build android",
+    "android:run": "cordova run android",
+    "ios:build": "cordova build ios",
+    "ios:run": "cordova run ios"
+  },
+  "keywords": [
+    "gasolina",
+    "diesel",
+    "etanol",
+    "postos",
+    "combustível"
+  ],
+  "author": "Daniel Rodrigues",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "cordova": "^12.0.0"
+  }
+}
